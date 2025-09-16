@@ -25,7 +25,7 @@ Antes de executar o projeto, certifique-se de ter:
 
 ▶️ Como Executar
 1.	Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git 
+git clone https://github.com/IgorOCastilho/funcionarios_faixa_salarial
 2.	Navegue até o diretório do projeto:
 cd nome-do-repositorio 
 3.	Execute o script:
