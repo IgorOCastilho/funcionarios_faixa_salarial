@@ -1,2 +1,47 @@
 # funcionarios_faixa_salarial
-📊 Filtro de Funcionários por Faixa Salarial Este projeto em Python utiliza a biblioteca Pandas para realizar a leitura, filtragem e exportação de dados de funcionários a partir de uma planilha Excel. O objetivo é identificar e salvar em um novo arquivo apenas os funcionários que recebem acima de um valor salarial definido pelo usuário. 🚀 Funcionalidades •	Leitura de dados de um arquivo Excel (funcionarios.xlsx) •	Entrada dinâmica do valor mínimo de salário via terminal •	Filtragem automática dos funcionários com salário acima do valor informado •	Exportação dos dados filtrados para um novo arquivo Excel (funcionarios_acima_3000.xlsx) •	Mensagem de confirmação ao final do processo 🧠 Tecnologias Utilizadas •	Python 3.x •	Pandas •	Excel (.xlsx) 📦 Requisitos Antes de executar o projeto, certifique-se de ter: •	Python instalado em sua máquina •	A biblioteca pandas instalada (pip install pandas) •	Um arquivo chamado funcionarios.xlsx com uma coluna chamada salario ▶️ Como Executar 1.	Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git  2.	Navegue até o diretório do projeto: cd nome-do-repositorio  3.	Execute o script: python filtro_funcionarios.py  4.	Digite o valor mínimo de salário quando solicitado. 5.	O arquivo funcionarios_acima_3000.xlsx será gerado com os dados filtrados. 📈 Exemplo de Uso Se o usuário digitar 3000 como valor mínimo, o programa irá gerar um novo arquivo contendo apenas os funcionários com salário acima de R$ 3.000,00. 💡 Melhorias Futuras •	Interface gráfica para facilitar o uso •	Validação de dados e tratamento de erros •	Suporte a múltiplos critérios de filtragem (cargo, cidade, etc.) •	Integração com banco de dados 🧑‍💻 Autor Igor — Desenvolvedor em aprendizado e apaixonada por dados 💙
+📊 Filtro de Funcionários por Faixa Salarial
+Este projeto em Python utiliza a biblioteca Pandas para realizar a leitura, filtragem 
+e exportação de dados de funcionários a partir de uma planilha Excel. 
+O objetivo é identificar e salvar em um novo arquivo apenas os funcionários 
+que recebem acima de um valor salarial definido pelo usuário.
+
+🚀 Funcionalidades
+•	Leitura de dados de um arquivo Excel (funcionarios.xlsx)
+•	Entrada dinâmica do valor mínimo de salário via terminal
+•	Filtragem automática dos funcionários com salário acima do valor informado
+•	Exportação dos dados filtrados para um novo arquivo Excel (funcionarios_acima_3000.xlsx)
+•	Mensagem de confirmação ao final do processo
+
+🧠 Tecnologias Utilizadas
+•	Python 3.x
+•	Pandas
+•	Excel (.xlsx)
+
+📦 Requisitos
+Antes de executar o projeto, certifique-se de ter:
+•	Python instalado em sua máquina
+•	A biblioteca pandas instalada (pip install pandas)
+•	Um arquivo chamado funcionarios.xlsx com uma coluna chamada salario
+
+▶️ Como Executar
+1.	Clone o repositório:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git 
+2.	Navegue até o diretório do projeto:
+cd nome-do-repositorio 
+3.	Execute o script:
+python filtro_funcionarios.py 
+4.	Digite o valor mínimo de salário quando solicitado.
+5.	O arquivo funcionarios_acima_3000.xlsx será gerado com os dados filtrados.
+
+📈 Exemplo de Uso
+Se o usuário digitar 3000 como valor mínimo, o programa irá gerar um novo arquivo 
+contendo apenas os funcionários com salário acima de R$ 3.000,00.
+
+💡 Melhorias Futuras
+•	Interface gráfica para facilitar o uso
+•	Validação de dados e tratamento de erros
+•	Suporte a múltiplos critérios de filtragem (cargo, cidade, etc.)
+•	Integração com banco de dados
+
+🧑‍💻 Autor
+Igor — Desenvolvedor em aprendizado e apaixonada por dados 💙
